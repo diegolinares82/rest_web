@@ -27,7 +27,7 @@ export class Server {
   async start() {
     
 
-    //* Middlewares
+    //* Middlewares para enviar las peticiones en json
     this.app.use(express.json());
     this.app.use(express.urlencoded({extended:true}))
 
